@@ -1,0 +1,40 @@
+body {
+  
+    font-size: 16px;
+    margin: 0;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+.input-container {
+    width: 600px;
+    background-color:white ;
+    padding: 30px;
+
+box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+border-image: linear-gradient(rgba(34,193,195,1), rgba(253,187,45,1)) 30 ;
+border-width: 10px;
+border-style: solid;
+border-radius: 15px;
+}
+.input-container input:not([type="submit"]) {
+    background-color: #d6d6d6;
+    color: black;
+
+}
+a {
+    text-decoration: none;
+}
+button{
+    background-color: rgba(34,193,195,1);
+}
+
+.error {
+    color: red;
+    margin-bottom: 5px;
+}
